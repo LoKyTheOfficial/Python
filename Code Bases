@@ -1,0 +1,73 @@
+print('')
+print('')
+print('Petite application avec une addition')
+print('')
+print('')
+
+
+
+
+###################################  Addition  ###################################
+
+
+
+
+#On demande au programme de nous demander 2 nombre à entrer pour le calcul
+a = int(input('Choississez un premier nombre:' ))
+b = int(input('Choississez un deuxième nombre:' ))
+
+
+#On additionne les deux nombres
+s = int(a) + int (b)
+
+
+#Affichage de la somme
+print('La somme de {0} + {1} est égale à {2}'.format(a, b, s))
+
+
+
+
+
+
+
+########################################################################################################################
+
+
+
+
+
+print('')
+print('')
+print('Maintenant voyons avec une soustraction')
+print('')
+print('')
+
+
+
+
+###################################  Soustraction  ###################################
+
+
+
+#On fait saisir deux nombre à l'utilisateur
+c = int(input('Saississez un nombre:' ))
+d = int(input('Saississez un autre nombre:' ))
+
+
+
+#On demande au programme d'exécuter une soustraction
+e = int(c) - int(d)
+
+
+
+#On affiche finalement le résultat
+print('Le résultat de cette opération est {0}'.format(e))
+
+
+
+
+print('')
+print('')
+print('En espérant que ce petit exercice à aider à mieux comprendre les bases')
+print('')
+print('')
