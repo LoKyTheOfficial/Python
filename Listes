@@ -1,0 +1,94 @@
+##############  Listes  ##############
+
+
+
+
+semaine = ["Lundi", "Mardi", "Mercredi", "jeudi", "Vendredi", "Samedi", "Dimanche"]
+
+
+
+print('')
+print('')
+print(semaine)
+print('')
+print('')
+
+
+
+#Chacun des éléments de la liste peut être appelé par sa position par exemple :
+
+
+print('Je demande la valeur qui se trouve en 3ème position dans ma liste :')
+print(semaine[3])
+print('')
+print('')
+
+
+#Ici on a appelé le numéro 3 qui correspond à Jeudi. Lundi = 0, Mardi = 1, etc...
+
+
+
+
+
+##############  Liste vide  ##############
+
+
+liste1 = []
+
+
+#On utilise ".append()" pour ajouter des valeurs dans une liste
+
+print("J'ajoute 4 dans ma liste1 :")
+liste1.append(4)
+
+
+print(liste1)
+
+print('')
+print('')
+
+
+
+
+##### Boucle for #####
+
+for i in range(10):
+    liste1.append(i)
+
+
+
+#On a ajouté 10 nombres en commençant par le 0 dans notre liste1    
+print("Maitenant j'ai ajouté 10 nombres supplémentaire avec une boucle for :")
+print(liste1)
+print('')
+print('')
+
+
+
+#En reprenant l'exemple d'indiçage vu précedemment (position) on peut utilisé l'indiçage inverse
+#Cela consiste principalement à pouvoir afficher les derniers nombres de la liste quand on ne connait pas sa longueur
+#Le "-1" correspond au dernier nombre alors que "0" correspond au premier nombre
+
+#Cela fonctionne de la sorte :
+# 0  1  2  3  4  5  6
+#-7 -6 -5 -4 -3 -2 -1
+
+
+
+
+
+print("Utilisation de l'indiçage inverse")
+print("La dernière position correspond au nombre :")
+print(liste1[-1])
+
+print('')
+print("L'avant dernière au nombre :")
+print(liste1[-2])
+
+print('')
+print("J'espère que ce petit cas aura été utile !")
+print('')
+print('')
+
+
+    
