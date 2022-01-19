@@ -13,7 +13,7 @@ i = 0
 liste1 = []
 
 
-#4. Boucle "for" qui va nous permettre d'entrer automatiquement le nombre de valeurs souhaité.
+#4. Boucle "for" qui va nous permettre d'entrer automatiquement le nombre de valeurs souhaitées.
 for i in range(nb_valeur) :
     
     #5. On stock les entrer de l'utilisateur dans la variable "valeur". float signifie que l'on pourra entrer un nombre à virgule.
