@@ -1,0 +1,40 @@
+### Calcul de moyenne ###
+
+
+#1. On indique le nombre de valeur avec lesquels nous allons travailler.
+nb_valeur = int(input('Indiquer le nombre de valeur à ajouter : '))
+
+
+#2. On initialise i à 0 pour la future boucle "for".
+i = 0
+
+
+#3. On créer une liste vide dans laquelle nous allons mettre les valeurs à entrer.
+liste1 = []
+
+
+#4. Boucle "for" qui va nous permettre d'entrer automatiquement le nombre de valeurs souhaité.
+for i in range(nb_valeur) :
+    
+    #5. On stock les entrer de l'utilisateur dans la variable "valeur". float signifie que l'on pourra entrer un nombre à virgule.
+    valeur = float(input('Indiquer une valeur : '))
+    #6. On envoie directement les valeurs dans notre liste1 avec ".append()".
+    liste1.append(valeur)
+
+
+
+#7. Calcul de la somme des valeur dans la liste avec l'opérateur "sum()"
+somme = sum(liste1)
+#8. Calcul de la moyenne
+moyenne = somme / nb_valeur
+
+
+print('')
+print('')
+
+
+#9. Affichage du résultat final
+print('La moyenne est de : {0}'.format(moyenne))
+
+print('')
+print('')
