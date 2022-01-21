@@ -1,0 +1,20 @@
+### Fichier.csv ###
+
+#Lire un fichier csv
+
+import csv;
+
+#On ouvre le fichier en mode lecture "r"
+file = open (r"C:\Users\dmarguinaud\Desktop/data.csv")
+
+#Focntion csv.reader permet de lire
+lire = csv.reader(file)
+
+#boucle for qui nous permet de lire dans le fichier
+for row in lire:
+    print(row)
+    print('') #saut de ligne pour plus de visiblilté
+    
+ 
+
+#Voilà, c'est simple !
