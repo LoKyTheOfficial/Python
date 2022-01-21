@@ -3,7 +3,7 @@ import csv;
 
 
 #On ouvre le fichier, s'il n'est pas déjà existant, il sera créé
-with open("C:\\Users\dmarguinaud\Desktop/data2.csv", 'w') as fichiercsv : 
+with open("C:\\Users\username\Desktop/data2.csv", 'w') as fichiercsv : 
 
     writer=csv.writer(fichiercsv) #On lui indique qu'on va écrire dedans
     writer.writerow(['Bonjour']) #On écrit Bonjour sur la première lign
