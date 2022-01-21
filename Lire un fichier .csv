@@ -5,7 +5,7 @@
 import csv;
 
 #On ouvre le fichier en mode lecture "r"
-file = open (r"C:\Users\dmarguinaud\Desktop/data.csv")
+file = open (r"C:\Users\username\Desktop/nom_du_fichier.csv")
 
 #Focntion csv.reader permet de lire
 lire = csv.reader(file)
