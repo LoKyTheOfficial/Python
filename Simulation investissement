@@ -1,0 +1,22 @@
+### Simulation investissement ###
+
+
+
+#Combien je gagne d'argent au bout de A années en investissant X€ avec un rendement de Y%
+
+argent = int(input("Saisir un montant que vous voulez investir sans preciser l'unité : "))
+rendement = float(input("Saisir le montant du rendement sans unité ex : pour 10% = 1.10  : "))
+annees = int(input("Saisir un nombre d'années :"))
+an = 0
+
+
+#boucle while pour calculer
+while an <  annees :
+    argent = argent * rendement 
+    an += 1
+
+
+#On arrondi à deux chiffres après la virgule
+print('')
+print ("Vous aurez gagné {} €".format(round(argent, 2)))
+print('')
