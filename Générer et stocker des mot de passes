@@ -1,0 +1,28 @@
+from random import randint, choice 
+import string
+
+
+liste1 = []
+
+password_min = 8
+password_max = 16 
+i = 0
+tours = 0
+wish = int(input("entre le nombre de mot de passe que tu veux générer : "))
+
+while tours < wish :
+    
+    all_chars = string.ascii_letters + string.punctuation + string.digits
+    password = "".join(choice(all_chars) for x in range(randint(password_min, password_max)))
+    liste1.append(password)
+        
+    with open('test.txt', 'a') as myfile :
+        myfile.write("{}\n".format(liste1[-1]))
+          
+
+    tours += 1 
+    i += 1
+    
+    
+print('il y a eu {} générations'.format(i))
+myfile.close()
