@@ -1,0 +1,7 @@
+### Spam ###
+
+import webbrowser
+
+while 1 :
+    webbrowser.open_new("https://google.com")
+  
